@@ -1,0 +1,64 @@
+Average and maximum difference in final-time positioncalculated with History and without History for the with
+ - R = 0.78:
+
+   - S = 0.1:
+      - Relative average distance = 0.0398384393529379,
+      - Relative Standard deviation = 0.23456783434507383,
+      - Absolute average distance = 0.4558806776786924,
+      - Absolute Standard deviation = 2.684215170566654,
+      - Maximum distance = 35.377194859605495.
+      - Number of particles that left the domain: 
+        * With History: 275.0 of a total of 16281 (1.7) 
+        * Without History: 275.0 of a total of 16281 (1.7) 
+
+   - S = 1.0:
+      - Relative average distance = 0.27543707975075876,
+      - Relative Standard deviation = 0.5553995493084211,
+      - Absolute average distance = 3.0996980595408785,
+      - Absolute Standard deviation = 6.250323692144244,
+      - Maximum distance = 35.3527566287605.
+      - Number of particles that left the domain: 
+        * With History: 272.0 of a total of 16281 (1.7) 
+        * Without History: 267.0 of a total of 16281 (1.6) 
+
+   - S = 10.0:
+      - Relative average distance = 0.4471961511342285,
+      - Relative Standard deviation = 0.688709946979285,
+      - Absolute average distance = 5.041543426137358,
+      - Absolute Standard deviation = 7.764291121250357,
+      - Maximum distance = 36.397315334113145.
+      - Number of particles that left the domain: 
+        * With History: 748.0 of a total of 16281 (4.6) 
+        * Without History: 4254.0 of a total of 16281 (26.1) 
+
+ - R = 1.22:
+
+   - S = 0.1:
+      - Relative average distance = 0.041667123435588205,
+      - Relative Standard deviation = 0.23409006980518343,
+      - Absolute average distance = 0.4797165713425656,
+      - Absolute Standard deviation = 2.695095711271751,
+      - Maximum distance = 35.38967515221028.
+      - Number of particles that left the domain: 
+        * With History: 277.0 of a total of 16281 (1.7) 
+        * Without History: 279.0 of a total of 16281 (1.7) 
+
+   - S = 1.0:
+      - Relative average distance = 0.2618383120038872,
+      - Relative Standard deviation = 0.5388415912493183,
+      - Absolute average distance = 3.0196706863967684,
+      - Absolute Standard deviation = 6.214232536309658,
+      - Maximum distance = 35.3611002587277.
+      - Number of particles that left the domain: 
+        * With History: 281.0 of a total of 16281 (1.7) 
+        * Without History: 285.0 of a total of 16281 (1.8) 
+
+   - S = 10.0:
+      - Relative average distance = 0.47786595249396846,
+      - Relative Standard deviation = 0.7321774666406587,
+      - Absolute average distance = 5.576046643150717,
+      - Absolute Standard deviation = 8.543516615370859,
+      - Maximum distance = 37.35235835327836.
+      - Number of particles that left the domain: 
+        * With History: 533.0 of a total of 16281 (3.3) 
+        * Without History: 4031.0 of a total of 16281 (24.8) 
