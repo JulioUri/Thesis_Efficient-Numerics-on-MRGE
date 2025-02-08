@@ -110,14 +110,14 @@ COMMON_DIR=$(pwd)
 ##########################
 
 # Run the nineth script
-#cd "$SCRIPT09_DIR" || { echo "Failed to change directory to $SCRIPT09_DIR"; exit 1; }
-#python3 a06_CONVRG_OSCLT.py || { echo "Failed to run NINETH script."; exit 1; }
-#cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
+cd "$SCRIPT09_DIR" || { echo "Failed to change directory to $SCRIPT09_DIR"; exit 1; }
+python3 a06_CONVRG_OSCLT.py || { echo "Failed to run NINETH script."; exit 1; }
+cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
 
 # Run the tenth script
-#cd "$SCRIPT10_DIR" || { echo "Failed to change directory to $SCRIPT10_DIR"; exit 1; }
-#python3 a06_CONVRG_OSCLT.py || { echo "Failed to run TENTH script."; exit 1; }
-#cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
+cd "$SCRIPT10_DIR" || { echo "Failed to change directory to $SCRIPT10_DIR"; exit 1; }
+python3 a06_CONVRG_OSCLT.py || { echo "Failed to run TENTH script."; exit 1; }
+cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
 
 # Run the eleventh script
 cd "$SCRIPT11_DIR" || { echo "Failed to change directory to $SCRIPT11_DIR"; exit 1; }
@@ -130,9 +130,9 @@ python3 a06_CONVRG_OSCLT.py || { echo "Failed to run TWELFTH script."; exit 1; }
 cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
 
 # Run the thirdteenth script
-#cd "$SCRIPT13_DIR" || { echo "Failed to change directory to $SCRIPT13_DIR"; exit 1; }
-#python3 a06_PRECSN_OSCLT.py || { echo "Failed to run 13TH script."; exit 1; }
-#cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
+cd "$SCRIPT13_DIR" || { echo "Failed to change directory to $SCRIPT13_DIR"; exit 1; }
+python3 a06_PRECSN_OSCLT.py || { echo "Failed to run 13TH script."; exit 1; }
+cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
 
 # Run the 14th script
 cd "$SCRIPT14_DIR" || { echo "Failed to change directory to $SCRIPT14_DIR"; exit 1; }
@@ -140,14 +140,14 @@ python3 a06_PRECSN_OSCLT.py || { echo "Failed to run 14TH script."; exit 1; }
 cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
 
 # Run the 15th script
-#cd "$SCRIPT15_DIR" || { echo "Failed to change directory to $SCRIPT15_DIR"; exit 1; }
-#python3 a06_ERRORS_OSCLT.py || { echo "Failed to run 15TH script."; exit 1; }
-#cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
+cd "$SCRIPT15_DIR" || { echo "Failed to change directory to $SCRIPT15_DIR"; exit 1; }
+python3 a06_ERRORS_OSCLT.py || { echo "Failed to run 15TH script."; exit 1; }
+cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
 
 # Run the 16th script
-#cd "$SCRIPT16_DIR" || { echo "Failed to change directory to $SCRIPT16_DIR"; exit 1; }
-#python3 a06_ERRORS_OSCLT.py || { echo "Failed to run 16TH script."; exit 1; }
-#cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
+cd "$SCRIPT16_DIR" || { echo "Failed to change directory to $SCRIPT16_DIR"; exit 1; }
+python3 a06_ERRORS_OSCLT.py || { echo "Failed to run 16TH script."; exit 1; }
+cd "$COMMON_DIR" || { echo "Failed to return to common directory"; exit 1; }
 
 
 #####################

@@ -175,19 +175,19 @@ for j in range(0, len(c_v)):
         IMEX4_particle.update()
         DIRK4_particle.update()
 
-    Trap_err      = Trap_particle.pos_vec[:,1] - Oscillatory_particle.pos_vec[:,1]
+    Trap_err      = Trap_particle.pos_vec[:,1] - Analytic_particle.pos_vec[:,1]
     Trap_err_max  = np.linalg.norm(Trap_err, ord=2)
     Trap_err_v    = np.append(Trap_err_v, Trap_err_max)
 
-    IMEX2_err     = IMEX2_particle.pos_vec[:,1] - Oscillatory_particle.pos_vec[:,1]
+    IMEX2_err     = IMEX2_particle.pos_vec[:,1] - Analytic_particle.pos_vec[:,1]
     IMEX2_err_max = np.linalg.norm(IMEX2_err, ord=2)
     IMEX2_err_v   = np.append(IMEX2_err_v, IMEX2_err_max)
 
-    IMEX4_err     = IMEX4_particle.pos_vec[:,1] - Oscillatory_particle.pos_vec[:,1]
+    IMEX4_err     = IMEX4_particle.pos_vec[:,1] - Analytic_particle.pos_vec[:,1]
     IMEX4_err_max = np.linalg.norm(IMEX4_err)
     IMEX4_err_v   = np.append(IMEX4_err_v, IMEX4_err_max)
 
-    DIRK4_err     = DIRK4_particle.pos_vec[:,1] - Oscillatory_particle.pos_vec[:,1]
+    DIRK4_err     = DIRK4_particle.pos_vec[:,1] - Analytic_particle.pos_vec[:,1]
     DIRK4_err_max = np.linalg.norm(DIRK4_err, ord=2)
     DIRK4_err_v   = np.append(DIRK4_err_v, DIRK4_err_max)
     
@@ -256,7 +256,7 @@ plt.plot(c_v, DIRK4_err_v,   '+-', color='blue',   label="FD4 + DIRK4",         
 
 plt.xscale("log")
 plt.yscale("log")
-plt.ylim(1e-7,1e-1)
+plt.ylim(1e-7,1e0)
 plt.legend(loc="upper center", bbox_to_anchor=(0.5, 1.25), ncol=2, fontsize=fs-1)
 plt.xlabel('c values', fontsize=fs, labelpad=0.25)
 plt.ylabel('$l_2$ error at last node', fontsize=fs, labelpad=0.25)
